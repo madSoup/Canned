@@ -2,6 +2,7 @@
 .vscode
 __pycache__
 venv
+_drafts
 
 # Build and Release Folders
 bin-debug/
