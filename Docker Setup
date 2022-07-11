@@ -1,0 +1,15 @@
+# Install lastest version of ubuntu (20.04) onto the PC that will act as the headless Docker server.
+# Check version of Ubunto with this command:
+lsb_release -a
+# Using Ubuntu terminal, running as administrator, install latest verstion of Docker:
+sudo apt install docker.io
+# Checking the correct version of Docker:
+docker --version
+# Checking if Docker service is loaded/enabled
+sudo systemctl status docker
+# If inactive, enable with this command:
+sudo systemctl enable --now docker
+# Testing pulling image from Docker repository
+sudo docker run hello-world
+# Checking list of Docker images
+sudo docker images
